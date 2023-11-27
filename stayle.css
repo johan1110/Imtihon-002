@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shadov {
+    box-shadow: 0 0 8px gray;
+}
+
+.hover {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hover .cantent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.hover .cantent .img {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%; 
+    background-color: #00CF67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover .cantent .box01 {
+    margin-right: 70px;
+}
+
+.hover .cantent .box2 {
+    margin-right: 50px;
+}
+
+.hover .cantent .box2 p {
+    font-weight: 500;
+}
+
+.hover .cantent .box3 {
+    margin-right: 30px;
+    color: #4A4A4A;
+}
+
+.hover .cantent .box4 p {
+    color: #4E72CA;
+    gap: 1rem;
+}
+
+.hover .cantent .img img {
+    width: 42px;
+    height: 22px;
+}
+
+.hover .cantent .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.hover2 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hover2 .cantent2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.hover2 .cantent2 .text,
+.text2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hover2 .cantent2 .lol {
+    width: 68%;
+    border: 1px solid #9797977F;
+    border-radius: 40px;
+}
+
+.hover2 .cantent2 .lol2 {
+    width: 30%;
+    border: 1px solid #9797977F;
+    border-radius: 40px;
+    background-color: #00CF67;
+}
+
+.hover2 .cantent2 .lol2 .text2 .blockc p {
+    margin-right: 70px;
+}
+
+.hover2 .cantent2 .lol .text .blockp p {
+    margin-left: 30px;
+}
+
+.hover2 .cantent2 .lol .text .blockb p {
+    margin-right: 80px;
+}
+
+.hover2 .cantent2 .lol .text .lll {
+    width: 1px;
+    height: 67px;
+    background-color: #9797975E;
+}
+
+.hover2 .cantent2 .block0 {
+    width: 87px;
+    height: 67px;
+    border-radius: 40%;
+    background-color: #00CF67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover2 .cantent2 .block0 p {
+    color: #fff;
+}
+
+.hover2 .cantent2 .blockc p {
+    color: #fff;
+}
+
+.hover2 .cantent2 .blockk {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #11B463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover2 .cantent2 .blockk p {
+    color: #fff;
+}
+
+
+.card__wraper {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card__wraper .card {
+    width: 80%;
+    display: flex;
+    /* justify-content: space-between;
+    flex-wrap: wrap; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+
+.card__wraper .card .nnn {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card__wraper .card .nnn .nan {
+    text-align: center;
+}
+
+.card__wraper .card .nnn .nan p {
+    color: #4E72CA;
+    font-size: 22px;
+}
+
+.card__wraper .card .nnn .nan h3 {
+    font-size: 27px;
+}
+
+.card__wraper .card .nnn .nan .mini {
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.card__wraper .card .nnn .nan input,
+button {
+    width: 80%;
+    padding: 12px;
+    outline: none;
+    font-size: 20px;
+}
+
+.card__wraper .card .nnn .nan button {
+    background-color: #00CF67;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.card__wraper .card .nnn .nan button:hover {
+    background-color: #01b45b;
+}
+
+.card__wraper .card .img {
+    width: 450px;
+    height: 500px;
+    margin-top: 13px;
+    
+}
+
+.card__wraper .card .nnn .nan .j{
+    font-size: 19px;  
+}
+
+.card__wraper .card .nnn .nan .l{
+    font-size: 15px;
+    color: #4A4A4A;
+}
+.card__wraper .card .img img {
+    width: 100%;
+    height: 100%;
+}
